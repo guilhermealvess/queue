@@ -1,0 +1,17 @@
+{
+    "carrier_name": "GFL",
+    "carrier_slug": "gfl",
+    "carrier_status": "OLIST-00",
+    "created_at": "2024-10-09T18:28:35.583913Z",
+    "datetime": "2024-10-09T18:28:35.583843Z",
+    "description": "Guarulhos - SP",
+    "end_status": false,
+    "hash": "7b0a135fb759c16e4b4273fe6f900443f9260c6f",
+    "id": "0192728a-3e7f-7ddb-a0b2-b54ce68b655c",
+    "integration_reference": "ref",
+    "occurrence": false,
+    "status": "ready_to_ship",
+    "sub_status": null,
+    "title": "Em preparação",
+    "tracking_code": "GFL7OLJL2B1HO6"
+}
