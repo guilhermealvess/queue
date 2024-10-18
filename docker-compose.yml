@@ -1,0 +1,10 @@
+services:
+  localstack:
+    image: localstack/localstack:3.7.2
+    environment:
+      - SERVICES=sns,sqs
+      - EXTRA_CORS_ALLOWED_ORIGINS=*
+    volumes:
+      - ./localstack.sh:/etc/localstack/init/ready.d/script.sh
+    restart: unless-stopped
+    network_mode: host
